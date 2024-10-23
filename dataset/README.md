@@ -1,7 +1,7 @@
 ## Dataset
 
-### CASP 15
-https://predictioncenter.org/casp15/domains_summary.cgi
+### SOPT-Disorder2
+Test1185 and SL250
 
 ### NetSurf 2.0
 http://s3.amazonaws.com/songlabdata/proteindata/data_raw_pytorch/secondary_structure.tar.gz

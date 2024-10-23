@@ -33,11 +33,6 @@ conda activate protsssd
 python predict_disorder.py ./dataset/caid2/ ./weight/ProtSSSD.pth --output result_disorder.json
 ```
 
-### CASP 15
-```bash
-python predict_ss.py ./dataset/casp15/ ./weight/ProtSSSD.pth
-```
-
 ## Issues
 If you encounter any problems, please open an issue.
 
