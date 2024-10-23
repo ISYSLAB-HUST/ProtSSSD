@@ -157,7 +157,7 @@ def main(args):
     merge_lora(pretrain_model)
     pretrain_model = pretrain_model.to(device)
     # submodel
-    model = SSpredictor(dim=1280, num_layers=3, n_hidden=64, pair_dim=20, dropout=0)
+    model = SSpredictor(dim=1280, num_layers=2, n_hidden=64, pair_dim=20, dropout=0)
     model.load_state_dict(model_checkpoint['state_dict'])
     model = model.to(device)
     # -------------
